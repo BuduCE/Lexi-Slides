@@ -1,0 +1,14 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+}
+.nav a{
+    text-decoration: none;
+}
+.slide_title{
+    text-align: center;
+}
+.slide_info{
+    
+}

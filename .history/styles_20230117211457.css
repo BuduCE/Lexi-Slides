@@ -1,0 +1,78 @@
+/* Nav Bar */
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 130px;
+}
+.nav a{
+    text-decoration: none;
+    color: #000;
+}
+.nav a:hover{
+    font-weight: bolder;
+}
+.logo{
+    font-size: 2.25rem;
+}
+
+/* SLide Section */
+.slides{
+    padding: 0 130px;
+}
+.slide_title{
+    font-size: 5rem;
+    text-align: center;
+    letter-spacing: 0.73em;
+    margin: auto;
+}
+.slide_info{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+}
+.slide_summary{
+    padding: 30px;
+    width: 40%;
+}
+.slide_img img{
+    position: absolute;
+}
+.img1{
+    width: 170px;
+    right: 120px;
+    top: 0px;
+    z-index: 2;
+}
+.img2{
+    width: 220px;
+    right: 0;
+    top: 100px;
+    z-index: 1;
+}
+.img3{
+    width: 220px;
+    top: 215px;
+    right: 205px;
+}
+
+/* Contact Us Pane */
+.contact{
+    padding: 0 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.catalog_-btn{
+    display: flex;
+    align-items: center;
+    background-color: FEC2C2;
+    border: none;
+}
+.catalog_-btn p{
+    font-weight: bolder;
+    padding-right: 3px;
+}
