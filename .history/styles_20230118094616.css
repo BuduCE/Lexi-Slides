@@ -151,8 +151,6 @@ footer{
         padding: 28px 100px;
     }
 }
-@media screen and (max-width: 524px) {
-    footer{
-        grid-template-columns: 1fr;
-    }
+@media screen and (max-width: ) {
+    
 }

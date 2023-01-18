@@ -19,14 +19,6 @@ body{
     font-size: 2.25rem;
 }
 /* Responsiveness */
-@media screen and (max-width: 768px) {
-    .nav_option{
-        display: none;
-    }
-    .nav{
-        padding: 0 40px;
-    }
-}
 
 /* SLide Section */
 .slides{
@@ -39,6 +31,7 @@ body{
     margin: auto;
 }
 .slide_info{
+    position: relative;
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
@@ -49,55 +42,25 @@ body{
     padding: 30px;
     width: 40%;
 }
-.slide_img{
-    position: relative;
-}
 .slide_img img{
     position: absolute;
 }
 .img1{
     width: 170px;
     right: 120px;
-    top: -230px;
+    top: 0px;
     z-index: 2;
 }
 .img2{
     width: 220px;
     right: 0;
-    top: -120px;
+    top: 100px;
     z-index: 1;
 }
 .img3{
     width: 220px;
-    top: -10px;
+    top: 215px;
     right: 205px;
-}
-@media screen and (max-width: 943px) {
-    .slide_info {
-        position: relative;
-        display: flex;
-        flex-direction: column-reverse;
-    }
-    .slide_summary {
-        width: 100%;
-    }
-    .slide_img img{
-        position: relative;
-    }
-    .img1,.img2,.img3{
-        top: 0;
-        right: 0;
-        width: 30%;
-    }
-}
-@media screen and (max-width: 768px) {
-    .slides{
-        padding: 0 40px;
-    }
-    .slide_title {
-        font-size: 3rem;
-        letter-spacing: 0.3em;
-    }
 }
 
 /* Contact Us Pane */
@@ -124,35 +87,14 @@ body{
     font-weight: bolder;
     padding-right: 3px;
 }
-@media screen and (max-width: 768px) {
-    .contact{
-        padding: 0 40px;
-    }
-}
 
 /* Footer */
 footer{
     background: #E9E4E4;
     color: #989898;
-    /* height: 30vh; */
+    height: 30vh;
     padding: 48px 337px;
     display: flex;
     justify-content: space-between;
-}
-@media screen and (max-width: 1480px) {
-    footer{
-        padding: 28px 160px;
-    }
-}
-@media screen and (max-width: 768px) {
-    footer{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        padding: 28px 100px;
-    }
-}
-@media screen and (max-width: 524px) {
-    footer{
-        grid-template-columns: 1fr;
-    }
+
 }

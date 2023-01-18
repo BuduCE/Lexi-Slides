@@ -134,25 +134,11 @@ body{
 footer{
     background: #E9E4E4;
     color: #989898;
-    /* height: 30vh; */
+    height: 30vh;
     padding: 48px 337px;
     display: flex;
     justify-content: space-between;
 }
-@media screen and (max-width: 1480px) {
-    footer{
-        padding: 28px 160px;
-    }
-}
-@media screen and (max-width: 768px) {
-    footer{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        padding: 28px 100px;
-    }
-}
-@media screen and (max-width: 524px) {
-    footer{
-        grid-template-columns: 1fr;
-    }
+@media screen {
+    
 }

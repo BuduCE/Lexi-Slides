@@ -147,12 +147,6 @@ footer{
 @media screen and (max-width: 768px) {
     footer{
         display: grid;
-        grid-template-columns: 1fr 1fr;
-        padding: 28px 100px;
-    }
-}
-@media screen and (max-width: 524px) {
-    footer{
-        grid-template-columns: 1fr;
+        gid
     }
 }
