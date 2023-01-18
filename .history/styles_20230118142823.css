@@ -31,8 +31,6 @@ body{
 /* SLide Section */
 .slides{
     padding: 0 130px;
-    /* Carousel */
-    overflow: hidden;
 }
 .slide_title{
     font-size: 5rem;
@@ -75,14 +73,7 @@ body{
     right: 205px;
 }
 .slides-container{
-    overflow: scroll;
-    display: flex;
-    /* width: 100%; */
-}
-.slide{
-    width: 100%;
-    height: 100%;
-    flex: 1 0 100%;
+    overflow: ;
 }
 @media screen and (max-width: 943px) {
     .slide_info {
