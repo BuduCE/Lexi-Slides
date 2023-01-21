@@ -78,7 +78,7 @@ body{
 }
 /* SLide Section */
 .slides{
-    padding: 10px 130px;
+    padding: 20 130px;
     /* Carousel */
     overflow: hidden;
 }
@@ -87,7 +87,6 @@ body{
     text-align: center;
     letter-spacing: 0.73em;
     margin: auto;
-    padding-bottom: 20px;
 }
 .slide_info{
     display: grid;
