@@ -158,9 +158,6 @@ body{
         right: 0;
         width: 30%;
     }
-    .slide_title{
-        padding-bottom: 5px;
-    }
 }
 @media screen and (max-width: 768px) {
     .slides{

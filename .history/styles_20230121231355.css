@@ -144,8 +144,6 @@ body{
         position: relative;
         display: flex;
         flex-direction: column-reverse;
-        height: auto;
-        padding-top: 5px;
     }
     .slide_summary {
         width: 100%;
@@ -157,9 +155,6 @@ body{
         top: 0;
         right: 0;
         width: 30%;
-    }
-    .slide_title{
-        padding-bottom: 5px;
     }
 }
 @media screen and (max-width: 768px) {

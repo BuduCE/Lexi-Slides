@@ -96,6 +96,8 @@ body{
     justify-content: center;
     height: 70vh;
     padding-top: 30px;
+    height: auto;
+    padding-top: 5px;
 }
 .slide_summary{
     padding: 30px;

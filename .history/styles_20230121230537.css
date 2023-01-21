@@ -94,7 +94,7 @@ body{
     grid-template-columns: 1fr 1fr;
     align-items: center;
     justify-content: center;
-    height: 70vh;
+    /* height: 70vh; */
     padding-top: 30px;
 }
 .slide_summary{
@@ -144,8 +144,6 @@ body{
         position: relative;
         display: flex;
         flex-direction: column-reverse;
-        height: auto;
-        padding-top: 5px;
     }
     .slide_summary {
         width: 100%;
@@ -158,9 +156,6 @@ body{
         right: 0;
         width: 30%;
     }
-    .slide_title{
-        padding-bottom: 5px;
-    }
 }
 @media screen and (max-width: 768px) {
     .slides{
@@ -169,7 +164,6 @@ body{
     .slide_title {
         font-size: 3rem;
         letter-spacing: 0.3em;
-        padding-bottom: 5px;
     }
 }
 

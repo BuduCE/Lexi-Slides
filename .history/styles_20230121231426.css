@@ -158,8 +158,8 @@ body{
         right: 0;
         width: 30%;
     }
-    .slide_title{
-        padding-bottom: 5px;
+    .slide_info {
+        
     }
 }
 @media screen and (max-width: 768px) {
