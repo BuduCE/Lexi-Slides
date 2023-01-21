@@ -42,7 +42,7 @@ body{
     .nav_mob{
         display: flex;
         justify-content: space-between;
-        align-items: center;
+        align-items: ;
         padding: 0 20px;
     }
     .desk_nav{
