@@ -49,7 +49,7 @@ showSlides();
 
 function showSlides() {
     var i;
-    var slides = document.getElementsByClassName("slide");
+    var slides = document.getElementsByClassName("carousel-item");
     for (i = 0; i < slides.length; i++) {
         slides[i].style.display = "none";
     }

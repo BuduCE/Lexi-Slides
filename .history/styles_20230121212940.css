@@ -240,7 +240,7 @@ footer{
     padding-bottom: 10px;
 }
 .footer_pane p{
-    padding-bottom: 5px;
+    paddi
 }
 @media screen and (max-width: 1480px) {
     footer{
@@ -257,6 +257,7 @@ footer{
 @media screen and (max-width: 524px) {
     footer{
         grid-template-columns: 1fr;
-        padding: 10px 15px;
+        padding: 0;
+        padding-left: 15px;
     }
 }

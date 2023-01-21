@@ -258,5 +258,6 @@ footer{
     footer{
         grid-template-columns: 1fr;
         padding: 10px 15px;
+        padding-left: 15px;
     }
 }
