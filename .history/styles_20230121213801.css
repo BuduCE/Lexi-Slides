@@ -53,10 +53,9 @@ body{
         display: none;
         width: 35%;
         flex-direction: column;
-        padding: 10px 0;
         text-align: center;
         position: fixed;
-        top: 0;
+        /* top: 0; */
         right: 0;
         background: #fff;
         z-index: 5;
@@ -72,9 +71,9 @@ body{
     .hamburger_close{
         font-size: 0.75rem;
     }
-    /* .hamburger_open {
+    .hamburger_open {
         font-size: 2.75rem;
-    } */
+    }
 }
 /* SLide Section */
 .slides{
