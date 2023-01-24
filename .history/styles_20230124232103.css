@@ -190,11 +190,8 @@ body{
     border: none;
     padding: 0 15px;
     box-shadow: 11px -8px 0px -4px rgba(0, 0, 0, 1);
-    -webkit-box-shadow: 11px -8px 0px -4px rgba(0, 0, 0, 1);
-    -moz-box-shadow: 11px -8px 0px -4px rgba(0, 0, 0, 1);
-    cursor: pointer;
-    text-decoration: none;
-    color: #000;
+        -webkit-box-shadow: 11px -8px 0px -4px rgba(0, 0, 0, 1);
+        -moz-box-shadow: 11px -8px 0px -4px rgba(0, 0, 0, 1);
 }
 .catalog_-btn p{
     font-weight: bolder;
@@ -240,4 +237,4 @@ footer{
     }
 }
 
-/* Store page */
+/* Store */
