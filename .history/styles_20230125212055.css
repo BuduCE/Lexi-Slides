@@ -260,7 +260,7 @@ footer{
     }
 }
 .items{
-    /* display: grid; */
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     margin: auto;
 }
@@ -273,15 +273,7 @@ footer{
     width: 200px;
     width: 90%;
 }
-#slides{
-    display: grid;
-}
-#shoes{
-    display: none;
-}
-#belts{
-    display: none;
-}
+#shoes
 @media screen and (max-width: 1199px) {
     .items{
         grid-template-columns: 1fr 1fr 1fr;

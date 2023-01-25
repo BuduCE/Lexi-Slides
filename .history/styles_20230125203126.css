@@ -255,12 +255,10 @@ footer{
     color: #000;
 }
 @media screen and (max-width: 380px) {
-    .store_type h1{
-        font-size: 12px;
-    }
+    
 }
 .items{
-    /* display: grid; */
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     margin: auto;
 }
@@ -272,15 +270,6 @@ footer{
 .item img{
     width: 200px;
     width: 90%;
-}
-#slides{
-    display: grid;
-}
-#shoes{
-    display: none;
-}
-#belts{
-    display: none;
 }
 @media screen and (max-width: 1199px) {
     .items{
