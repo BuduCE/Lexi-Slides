@@ -270,6 +270,6 @@ footer{
 }
 @media screen and (max-width: 540px) {
     .items{
-        grid-template-columns: 1fr;
+        /* grid-template-columns: 1fr; */
     }
 }

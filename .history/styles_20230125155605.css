@@ -249,27 +249,14 @@ footer{
     grid-template-columns: 1fr 1fr 1fr 1fr;
     margin: auto;
 }
-.item{
-    width: 100%;
-    margin: auto;
-    padding: 20px 10px;
-}
 .item img{
-    width: 200px;
-    width: 90%;
+    width: 260px;
 }
 @media screen and (max-width: 1199px) {
     .items{
         grid-template-columns: 1fr 1fr 1fr;
     }
 }
-@media screen and (max-width: 920px) {
-    .items{
-        grid-template-columns: 1fr 1fr;
-    }
-}
-@media screen and (max-width: 540px) {
-    .items{
-        grid-template-columns: 1fr;
-    }
+@media screen (max-width: ) {
+    
 }

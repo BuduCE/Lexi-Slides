@@ -268,8 +268,8 @@ footer{
         grid-template-columns: 1fr 1fr;
     }
 }
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 630px) {
     .items{
-        grid-template-columns: 1fr;
+        /* grid-template-columns: 1fr; */
     }
 }

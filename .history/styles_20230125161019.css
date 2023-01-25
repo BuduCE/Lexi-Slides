@@ -255,8 +255,8 @@ footer{
     padding: 20px 10px;
 }
 .item img{
-    width: 200px;
-    width: 90%;
+    /* width: 260px; */
+    width: 100%;
 }
 @media screen and (max-width: 1199px) {
     .items{
@@ -268,7 +268,7 @@ footer{
         grid-template-columns: 1fr 1fr;
     }
 }
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 630px) {
     .items{
         grid-template-columns: 1fr;
     }
