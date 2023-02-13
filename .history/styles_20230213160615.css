@@ -9,7 +9,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 130px;
+    padding: 10px 40px;
 }
 /* .desk_nav{
     display: flex;
@@ -20,7 +20,6 @@ body{
 .nav a{
     text-decoration: none;
     color: #000;
-    font-size: 1.5rem;
 }
 .nav_mob a{
     text-decoration: none;
@@ -34,7 +33,7 @@ body{
     font-weight: bolder;
     transition: 1s;
 }
-#logo{
+.logo{
     font-size: 2.25rem;
 }
 .nav_mob{
@@ -195,7 +194,7 @@ figure > img{
 
 /* Contact Us Pane */
 .contact{
-    padding: 10px 130px;
+    /* padding: 0 130px; */
     display: flex;
     justify-content: space-between;
     align-items: center;

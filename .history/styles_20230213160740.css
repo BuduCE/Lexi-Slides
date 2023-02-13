@@ -34,7 +34,7 @@ body{
     font-weight: bolder;
     transition: 1s;
 }
-#logo{
+.logo{
     font-size: 2.25rem;
 }
 .nav_mob{
