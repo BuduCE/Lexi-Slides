@@ -270,10 +270,8 @@ footer{
     .store_type{
         display: none;
     }
-    .dropdown{
-        padding: 5px 15px;
-        border-radius: 5px;
-    }
+    .dropdown
+
 }
 /* @media screen and (max-width: 380px) {
     .store_type h1{
