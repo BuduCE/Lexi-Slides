@@ -258,24 +258,11 @@ footer{
     text-decoration: none;
     color: #000;
 }
-.mob_store_type{
-    display: none;
-}
-@media screen and (max-width: 768px) {
-    .mob_store_type{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        padding: 10px 40px;
-    }
-    .store_type{
-        display: none;
-    }
-}
-/* @media screen and (max-width: 380px) {
+@media screen and (max-width: 380px) {
     .store_type h1{
         font-size: 12px;
     }
-} */
+}
 .items{
     /* display: grid; */
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -303,15 +290,8 @@ footer{
     /* width: 100%; */
 }
 .item_contact button{
-    width: 90%;
-    padding: 10px 0;
-    border: none;
-    background: #FEC2C2;
-    cursor: pointer;
-    border-radius: 5px;
-}
-.item_contact button:hover{
-    background: #989898;
+    
+    padding: 5px 25px;
 }
 @media screen and (max-width: 1199px) {
     .items{

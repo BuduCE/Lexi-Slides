@@ -261,15 +261,8 @@ footer{
 .mob_store_type{
     display: none;
 }
-@media screen and (max-width: 768px) {
-    .mob_store_type{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        padding: 10px 40px;
-    }
-    .store_type{
-        display: none;
-    }
+@media screen {
+    
 }
 /* @media screen and (max-width: 380px) {
     .store_type h1{

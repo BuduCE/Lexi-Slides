@@ -264,8 +264,7 @@ footer{
 @media screen and (max-width: 768px) {
     .mob_store_type{
         display: grid;
-        grid-template-columns: 1fr 1fr;
-        padding: 10px 40px;
+        grid-template-columns: ;
     }
     .store_type{
         display: none;
