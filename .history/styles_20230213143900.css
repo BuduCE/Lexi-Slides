@@ -85,9 +85,9 @@ body{
     /* overflow-y: hidden; */
 }
 .slide_title{
-    font-size: 5rem;
+    font-size: 2rem;
     text-align: center;
-    letter-spacing: 0.73em;
+    letter-spacing: 0.53em;
     padding-bottom: 20px;
 }
 .slide_info{
@@ -171,8 +171,8 @@ body{
         padding: 0 40px;
     }
     .slide_title {
-        font-size: 2rem;
-        letter-spacing: 0.2em;
+        font-size: 3rem;
+        letter-spacing: 0.3em;
         padding-bottom: 5px;
     }
 }
