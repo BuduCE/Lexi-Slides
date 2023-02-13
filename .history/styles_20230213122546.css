@@ -151,9 +151,6 @@ body{
     .slide_summary {
         width: 100%;
     }
-    .slide_img{
-        text-align: center;
-    }
     .slide_img img{
         position: relative;
     }

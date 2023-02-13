@@ -152,7 +152,8 @@ body{
         width: 100%;
     }
     .slide_img{
-        text-align: center;
+        width: 100%;
+        margin: auto;
     }
     .slide_img img{
         position: relative;
