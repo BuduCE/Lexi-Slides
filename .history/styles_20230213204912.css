@@ -309,15 +309,10 @@ footer{
         padding-left: 0;
     }
 }
-@media screen and (max-width: 596px) {
+@media screen and (max-width: 59px) {
     footer{
         grid-template-columns: 1fr;
-        padding: 10px 60px;
-    }
-}
-@media screen and (max-width: 463px) {
-    footer{
-        padding: 10px 30px;
+        padding: 10px 15px;
     }
 }
 

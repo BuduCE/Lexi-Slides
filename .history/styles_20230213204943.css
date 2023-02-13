@@ -315,11 +315,7 @@ footer{
         padding: 10px 60px;
     }
 }
-@media screen and (max-width: 463px) {
-    footer{
-        padding: 10px 30px;
-    }
-}
+
 
 /* Store page */
 .store{

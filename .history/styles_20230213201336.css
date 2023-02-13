@@ -41,19 +41,6 @@ body{
     display: none;
 }
 /* Responsiveness */
-@media screen and (max-width: 768px) {
-    .nav {
-        padding: 10px 80px 0 80px;
-    }
-}
-@media screen and (max-width: 596px) {
-    .nav{
-        padding: 10px 60px 0 60px;
-    }
-    .nav a{
-        font-size: 1.2rem;
-    }
-}
 @media screen and (max-width: 463px) {
     .nav{
         display: none;
@@ -62,7 +49,7 @@ body{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 0 30px;
+        padding: 0 20px;
     }
     .desk_nav{
         /* display: flex; */
@@ -116,15 +103,15 @@ body{
 }
 .slide_info{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr fr;
     align-items: center;
     justify-content: center;
     /* height: 70vh; */
     padding-top: 30px;
 }
 .slide_summary{
-    padding-right: 10px;
-    /* width: 40%; */
+    padding: 30px;
+    width: 40%;
 }
 .slide_img{
     column-count: 2;
@@ -173,49 +160,35 @@ figure > img{
     height: 0;
 } */
 .slide{
-    /* width: 100%;
-    height: 100%; */
+    width: 100%;
+    height: 100%;
 }
-/* 943 */
-@media screen and (max-width: 768px) {
-    .slides{
-        padding: 0 80px;
-    }
+@media screen and (max-width: 943px) {
     .slide_info {
-        /* position: relative; */
+        position: relative;
         display: flex;
         flex-direction: column-reverse;
         height: auto;
-        /* padding-top: 5px; */
+        padding-top: 5px;
     }
     .slide_summary {
         width: 100%;
     }
     .slide_img{
-        /* text-align: center; */
+        text-align: center;
     }
     .slide_title{
-        /* padding-bottom: 5px; */
+        padding-bottom: 5px;
     }
 }
 @media screen and (max-width: 768px) {
     .slides{
-        /* padding: 0 40px; */
+        padding: 0 40px;
     }
     .slide_title {
         font-size: 2rem;
         letter-spacing: 0.2em;
         padding-bottom: 5px;
-    }
-}
-@media screen and (max-width: 596px) {
-    .slides{
-        padding: 0 60px;
-    }
-}
-@media screen and (max-width: 463px) {
-    .slides{
-        padding: 0 30px;
     }
 }
 
@@ -235,18 +208,12 @@ figure > img{
     background-color: #FEC2C2;
     border: none;
     padding: 0 15px;
-    /* box-shadow: 11px -8px 0px -4px rgba(0, 0, 0, 1);
-    -webkit-box-shadow: 11px -8px 0px -4px rgba(0, 0, 0, 1);
-    -moz-box-shadow: 11px -8px 0px -4px rgba(0, 0, 0, 1); */
-    cursor: pointer;
-    text-decoration: none;
-    color: #000;
-}
-.catalog_-btn:hover{
     box-shadow: 11px -8px 0px -4px rgba(0, 0, 0, 1);
     -webkit-box-shadow: 11px -8px 0px -4px rgba(0, 0, 0, 1);
     -moz-box-shadow: 11px -8px 0px -4px rgba(0, 0, 0, 1);
-    transition: 1s;
+    cursor: pointer;
+    text-decoration: none;
+    color: #000;
 }
 .catalog_-btn p{
     font-weight: bolder;
@@ -254,17 +221,7 @@ figure > img{
 }
 @media screen and (max-width: 768px) {
     .contact{
-        padding: 0 80px;
-    }
-}
-@media screen and (max-width: 596px) {
-    .contact{
-        padding: 0 60px;
-    }
-}
-@media screen and (max-width: 463px) {
-    .contact{
-        padding: 0 30px;
+        padding: 0 40px;
     }
 }
 
@@ -272,8 +229,7 @@ figure > img{
 footer{
     background: #E9E4E4;
     color: #989898;
-    /* padding: 48px 320px; */
-    padding: 28px 130px;
+    padding: 48px 320px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     /* justify-content: space-between; */
@@ -284,40 +240,22 @@ footer{
 .footer_pane p{
     padding-bottom: 5px;
 }
-.help{
-    padding-right: 30px;
-}
-.about{
-    padding-left: 30px;
-}
-/* @media screen and (max-width: 1480px) {
+@media screen and (max-width: 1480px) {
     footer{
         padding: 28px 160px;
     }
-} */
+}
 @media screen and (max-width: 768px) {
     footer{
         display: grid;
         grid-template-columns: 1fr 1fr;
-        padding: 28px 80px;
-    }
-    .help {
-        padding-right: 0;
-    }
-
-    .about {
-        padding-left: 0;
+        padding: 28px 100px;
     }
 }
-@media screen and (max-width: 596px) {
+@media screen and (max-width: 524px) {
     footer{
         grid-template-columns: 1fr;
-        padding: 10px 60px;
-    }
-}
-@media screen and (max-width: 463px) {
-    footer{
-        padding: 10px 30px;
+        padding: 10px 15px;
     }
 }
 

@@ -273,7 +273,6 @@ footer{
     background: #E9E4E4;
     color: #989898;
     /* padding: 48px 320px; */
-    padding: 28px 130px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     /* justify-content: space-between; */
@@ -284,40 +283,22 @@ footer{
 .footer_pane p{
     padding-bottom: 5px;
 }
-.help{
-    padding-right: 30px;
-}
-.about{
-    padding-left: 30px;
-}
-/* @media screen and (max-width: 1480px) {
+@media screen and (max-width: 1480px) {
     footer{
         padding: 28px 160px;
     }
-} */
+}
 @media screen and (max-width: 768px) {
     footer{
         display: grid;
         grid-template-columns: 1fr 1fr;
-        padding: 28px 80px;
-    }
-    .help {
-        padding-right: 0;
-    }
-
-    .about {
-        padding-left: 0;
+        padding: 28px 100px;
     }
 }
-@media screen and (max-width: 596px) {
+@media screen and (max-width: 524px) {
     footer{
         grid-template-columns: 1fr;
-        padding: 10px 60px;
-    }
-}
-@media screen and (max-width: 463px) {
-    footer{
-        padding: 10px 30px;
+        padding: 10px 15px;
     }
 }
 
