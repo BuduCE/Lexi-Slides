@@ -211,9 +211,6 @@ figure > img{
     .slides{
         padding: 0 60px;
     }
-    .slide_img {
-        column-count: 2;
-    }
 }
 @media screen and (max-width: 463px) {
     .slides{

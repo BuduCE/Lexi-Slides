@@ -185,9 +185,9 @@ figure > img{
     .slides{
         padding: 0 80px;
     }
-    /* .slide_img {
+    .slide_img {
         column-count: 2;
-    } */
+    }
     .slide_info {
         display: flex;
         flex-direction: column-reverse;
@@ -210,9 +210,6 @@ figure > img{
 @media screen and (max-width: 596px) {
     .slides{
         padding: 0 60px;
-    }
-    .slide_img {
-        column-count: 2;
     }
 }
 @media screen and (max-width: 463px) {

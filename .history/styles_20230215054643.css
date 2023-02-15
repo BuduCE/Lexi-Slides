@@ -185,13 +185,12 @@ figure > img{
     .slides{
         padding: 0 80px;
     }
-    /* .slide_img {
-        column-count: 2;
-    } */
     .slide_info {
+        /* position: relative; */
         display: flex;
         flex-direction: column-reverse;
         height: auto;
+        /* padding-top: 5px; */
     }
     .slide_summary {
         width: 100%;
@@ -210,9 +209,6 @@ figure > img{
 @media screen and (max-width: 596px) {
     .slides{
         padding: 0 60px;
-    }
-    .slide_img {
-        column-count: 2;
     }
 }
 @media screen and (max-width: 463px) {
