@@ -403,17 +403,17 @@ footer{
         width: 35%;
     }
 }
-@media screen and (max-width: 680px) {
+@media screen and (maxwidth: 680px) {
     .product_card {
         width: 45%;
     }
 }
-@media screen and (max-width: 530px) {
+@media screen and (maxwidth: 530px) {
     .product_card {
         width: 55%;
     }
 }
-@media screen and (max-width: 420px) {
+@media screen and (maxwidth: 420px) {
     .product_card {
         width: 70%;
     }

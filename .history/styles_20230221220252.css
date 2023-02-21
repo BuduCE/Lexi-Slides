@@ -413,7 +413,7 @@ footer{
         width: 55%;
     }
 }
-@media screen and (max-width: 420px) {
+@media screen and (maxwidth: 420px) {
     .product_card {
         width: 70%;
     }
