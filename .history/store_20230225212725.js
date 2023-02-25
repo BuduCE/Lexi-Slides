@@ -1,4 +1,3 @@
-filterObjects("all");
 // Changing store section
 const slide_page = document.getElementById("slides");
 
@@ -36,7 +35,7 @@ const closeProductPop = () => {
 
 
 // Filter
-filterObjects("all");
+filterObjects('all');
 
 function filterObjects(c) {
     var x;

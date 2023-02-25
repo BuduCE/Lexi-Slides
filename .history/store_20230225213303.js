@@ -1,4 +1,3 @@
-filterObjects("all");
 // Changing store section
 const slide_page = document.getElementById("slides");
 

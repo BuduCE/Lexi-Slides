@@ -439,7 +439,7 @@ footer{
 }
 /* Filter */
 .show{
-    display: block;
+    display: none;
 }
 .good{
     display: none;

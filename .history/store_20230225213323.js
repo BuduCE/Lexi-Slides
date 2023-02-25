@@ -36,7 +36,7 @@ const closeProductPop = () => {
 
 
 // Filter
-filterObjects("all");
+
 
 function filterObjects(c) {
     var x;

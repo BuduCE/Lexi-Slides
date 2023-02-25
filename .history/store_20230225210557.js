@@ -1,4 +1,3 @@
-filterObjects("all");
 // Changing store section
 const slide_page = document.getElementById("slides");
 
@@ -36,7 +35,7 @@ const closeProductPop = () => {
 
 
 // Filter
-filterObjects("all");
+filterObjects('all');
 
 function filterObjects(c) {
     var x;
@@ -52,7 +51,7 @@ function filterObjects(c) {
 // Add class and remove class function for the filter names
 const addClass = (element, name) => {
     var i, arr1, arr2;
-    arr1 = element.className.split(" ");
+    arr1 = element.className.split("");
     arr2 = name.split(" ");
     for(i = 0; i < arr2.length; i++) {
         if(arr1.indexOf(arr2[i]) == -1) {

@@ -1,4 +1,3 @@
-filterObjects("all");
 // Changing store section
 const slide_page = document.getElementById("slides");
 
@@ -42,10 +41,11 @@ function filterObjects(c) {
     var x;
     var i;
     x = document.getElementsByClassName("good");
-    if(c == "all") {c = ""};
+    if(c == "all") c = "";
     for(i = 0; i < x.length; i++) {
-        removeClass(x[i], "show");
-        if(x[i].className.indexOf(c) > -1) {addClass(x[i], "show")}
+        removeClass(x[i], "good");
+
+        if(x[i].className.indexOf(c) > -1) addClass(x[i], "good");
     }
 }
 
@@ -55,7 +55,7 @@ const addClass = (element, name) => {
     arr1 = element.className.split(" ");
     arr2 = name.split(" ");
     for(i = 0; i < arr2.length; i++) {
-        if(arr1.indexOf(arr2[i]) == -1) {
+        if (arr1.indexOf(arr2[i]) == -1) {
             element.className += " " + arr2[i];
         }
     }
@@ -67,7 +67,7 @@ const removeClass = (element, name) => {
     arr1 = element.className.split(" ");
     arr2 = name.split(" ");
     for(i = 0; i < arr2.length; i++) {
-        while(arr1.indexOf(arr2[i]) > -1) {
+        while (arr1.indexOf(arr2[i]) > -1) {
             arr1.splice(arr1.indexOf(arr2[i]), 1);
         }
     }

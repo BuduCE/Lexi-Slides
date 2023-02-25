@@ -439,8 +439,5 @@ footer{
 }
 /* Filter */
 .show{
-    display: block;
-}
-.good{
     display: none;
 }
