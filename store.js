@@ -14,6 +14,7 @@ fetch("storeImages.json")
         let imageDisplay = document.querySelector(".items");
         let pics = "";
 
+<<<<<<< HEAD
         for (let product of data) {
             pics += `
             <figure id="productOne" class="good mules">
@@ -96,20 +97,28 @@ fetch("store.json")
 
 
 const filterObjects = (filter) => {
+=======
+const filterObjects = (filter = "good") => {
+>>>>>>> fe353e035bd1491a49e0f00163022117b206d10a
     let images = document.querySelectorAll(".good");
-    if (!filter) {
-        for (let a = 0; a <= images.length; a++) {
-            images[a].style.display = "block";
-        }
-        return;
-    }
 
-    for (let i = 0; i <= images.length; i++) {
-        const classNames = images[i].className;
-        if (classNames.includes(filter)) {
-            images[i].style.display = "block";
-        } else {
-            images[i].style.display = "none";
-        }
-    }
-}
+    // FOR..OF
+    // for (const image of images) {
+    //     const classNames = image.className;
+    //     image.style.display = classNames.includes(filter) ? "grid" : "none";
+    // }
+
+    // FOR EACH
+    // images.forEach(image => {
+    //     const classNames = image.className;
+    //     image.style.display = classNames.includes(filter) ? "grid" : "none";
+    // });
+
+    // FOR LOOP
+    // for (let i = 0; i < images.length; i++) {
+    //     const classNames = images[i].className;
+    //     images[i].style.display = classNames.includes(filter) ? "grid" : "none";
+    // }
+};
+
+filterObjects(); 
