@@ -389,18 +389,10 @@ footer{
     top: 0;
     cursor: pointer;
 }
-#buttons {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    /* justify-content: space-between; */
-    width: 40%;
-    margin: auto;
-}
 .btn{
-    margin: 5px 5px;
+    margin: 5px 0;
     border: none;
-    /* padding: 5px; */
-    padding: 10px 25px;
+    padding: 5px;
     border-radius: 5px;
     background:#989898;
     color: #E9E4E4;
@@ -408,32 +400,9 @@ footer{
 }
 .btn:hover{
     color: #000;
-    background: #E9E4E4;
-    font-weight: bolder;
-    font-size: 14px;
+    background: ;
 }
-@media screen and (max-width: 1300px) {
-    #buttons{
-        width: 60%;
-    }
-}
-@media screen and (max-width: 930px) {
-    .btn{
-        padding: 10px 15px;
-    }
-}
-@media screen and (max-width: 676px) {
-    #buttons {
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-}
-@media screen and (max-width: 354px) {
-    .btn{
-        padding: 5px 10px;
-    }
-}
-@media screen and (max-width: 300px) {
-    .btn{
-        padding: 5px 5px;
-    }
-}
+/* #buttons{
+    width: 80%;
+    margin: auto;
+} */

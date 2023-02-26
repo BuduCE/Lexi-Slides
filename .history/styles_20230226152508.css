@@ -409,8 +409,7 @@ footer{
 .btn:hover{
     color: #000;
     background: #E9E4E4;
-    font-weight: bolder;
-    font-size: 14px;
+    font-weight: bol;
 }
 @media screen and (max-width: 1300px) {
     #buttons{

@@ -1,3 +1,4 @@
+
 // Product Pop-Up
 const productPop = () => {
     document.getElementById("productPage").style.display = "block"

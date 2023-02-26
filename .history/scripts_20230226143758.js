@@ -30,3 +30,12 @@ function showSlides() {
     slides[slideIndex - 1].style.display = "block";
     setTimeout(showSlides, 2000); // Change image every 2 seconds
 }
+
+// Product Pop-Up
+// const productPop = () => {
+//     document.getElementById("productPage").style.display === "block"
+// }
+
+// const closeProductPop = () => {
+//     document.getElementById("productPage").style.display === "none"
+// }
