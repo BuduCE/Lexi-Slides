@@ -16,7 +16,7 @@ fetch("storeImages.json")
 
         for (let product of data) {
             pics += `
-            <figure id="productOne" class='good ${product.class}'>
+            <figure id="productOne" class="good ">
                 <img src='${product.img}' alt="" class="img_class" onclick="productPop()">
             </figure>
         `;
@@ -57,6 +57,7 @@ fetch("store.json")
 // Filter
 const filterObjects = (filter = "good") => {
     let images = document.querySelectorAll(".good");
+    // FOR LOOP
     for (let i = 0; i < images.length; i++) {
         const classNames = images[i].className;
         images[i].style.display = classNames.includes(filter) ? "grid" : "none";

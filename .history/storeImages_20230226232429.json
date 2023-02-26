@@ -22,7 +22,7 @@
     {
         "id": 5,
         "img": "./assets/store/lexibelt2.png",
-        "class": "slides"
+        "class": "mules"
     },
     {
         "id": 6,
@@ -32,11 +32,11 @@
     {
         "id": 7,
         "img": "./assets/store/store1.PNG",
-        "class": "shoes"
+        "class": "mules"
     },
     {
         "id": 8,
         "img": "./assets/store/store2.PNG",
-        "class": "belts"
+        "class": "mules"
     }
 ]

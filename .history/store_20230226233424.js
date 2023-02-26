@@ -55,7 +55,7 @@ fetch("store.json")
 });
 
 // Filter
-const filterObjects = (filter = "good") => {
+const filterObjects = (filter) => {
     let images = document.querySelectorAll(".good");
     for (let i = 0; i < images.length; i++) {
         const classNames = images[i].className;

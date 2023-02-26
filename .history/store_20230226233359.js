@@ -59,6 +59,7 @@ const filterObjects = (filter = "good") => {
     let images = document.querySelectorAll(".good");
     for (let i = 0; i < images.length; i++) {
         const classNames = images[i].className;
+        
         images[i].style.display = classNames.includes(filter) ? "grid" : "none";
     }
 };

@@ -32,11 +32,11 @@
     {
         "id": 7,
         "img": "./assets/store/store1.PNG",
-        "class": "shoes"
+        "class": "mules"
     },
     {
         "id": 8,
         "img": "./assets/store/store2.PNG",
-        "class": "belts"
+        "class": "mules"
     }
 ]
