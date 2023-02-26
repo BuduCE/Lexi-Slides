@@ -6,15 +6,17 @@
             "name": "Mule for men",
             "Desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
             "price": "15,000"
-        }
+        }]
     },
     {
         "id": 2,
         "img": "./assets/store/lexishoe1 design.png",
-        "storeInfo": {
-            "name": "Open-head Sandal",
-            "Desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
-            "price": "9,000"
-        }
+        "storeInfo": [
+            {
+                "name": "Open-head Sandal",
+                "Desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+                "price": "9,000"
+            }
+        ]
     }
 ]
