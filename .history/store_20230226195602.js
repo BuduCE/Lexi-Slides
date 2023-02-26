@@ -24,9 +24,11 @@ fetch("storeImages.json")
         imageDisplay.innerHTML = pics;
     });
 
-// Fetching each product info
+// Fetching from JSON
+// Ensure to fetch image from a product-image file
 fetch("store.json")
 .then(response => response.json())
+// .then(data => showInfo(data)
 .then(data =>{
     let productDisplay = document.querySelector(".product_card"); 
     let out = "";
@@ -53,6 +55,15 @@ fetch("store.json")
     }
     productDisplay.innerHTML = out;
 });
+
+const showInfo = (data) => {
+    let productImg = document.querySelector(".img_class");
+    let productName = document.querySelector(".pdt_name");
+    let productDesc = document.querySelector(".pdt_desc");
+    let productPrice = document.querySelector(".pdt_price");
+
+    console.log(data.store);
+}
  
 // Add class and remove class function for the filter names
 // const addClass = (element, name) => {

@@ -7,52 +7,37 @@ const closeProductPop = () => {
     document.getElementById("productPage").style.display = "none"
 }
 
-// Fetching store images
-fetch("storeImages.json")
-    .then(response => response.json())
-    .then(data => {
-        let imageDisplay = document.querySelector(".items");
-        let pics = "";
-
-        for (let product of data) {
-            pics += `
-            <figure id="productOne" class="good mules">
-                <img src='${product.img}' alt="" class="img_class" onclick="productPop()">
-            </figure>
-        `;
-        }
-        imageDisplay.innerHTML = pics;
-    });
-
-// Fetching each product info
+// Fetching from JSON
+// Ensure to fetch image from a product-image file
 fetch("store.json")
 .then(response => response.json())
+// .then(data => showInfo(data)
 .then(data =>{
-    let productDisplay = document.querySelector(".product_card"); 
+    let productImg = document.querySelector(".img_class"); 
     let out = "";
 
     for(let product of data){
         out += `
-                <div class="close_product_card" onclick="closeProductPop()">
-                    <h1>X</h1>
-                </div>
+                <h4 class="pdt_name">${product.storeInfo.name}</h4>
 
-                <img src='${product.img}' alt="" class="img_class">
-    
-                <div class="product_info">
-                    <h4 class="pdt_name">${product.storeInfo.name}</h4>
-
-                    <p class="pdt_desc">${product.storeInfo.Desc}</p>
-                    
-                    <div class="contact_row">
-                        <small class="pdt_price">${product.storeInfo.price}</small>
-                        <button>Direct Order</button>
-                    </div>
+                <p class="pdt_desc">${product.storeInfo.Desc}</p>
+                
+                <div class="contact_row">
+                    <small class="pdt_price">${</small>
+                    <button>Direct Order</button>
                 </div>
         `;
     }
-    productDisplay.innerHTML = out;
 });
+
+const showInfo = (data) => {
+    let productImg = document.querySelector(".img_class");
+    let productName = document.querySelector(".pdt_name");
+    let productDesc = document.querySelector(".pdt_desc");
+    let productPrice = document.querySelector(".pdt_price");
+
+    console.log(data.store);
+}
  
 // Add class and remove class function for the filter names
 // const addClass = (element, name) => {

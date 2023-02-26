@@ -7,53 +7,31 @@ const closeProductPop = () => {
     document.getElementById("productPage").style.display = "none"
 }
 
-// Fetching store images
-fetch("storeImages.json")
-    .then(response => response.json())
-    .then(data => {
-        let imageDisplay = document.querySelector(".items");
-        let pics = "";
-
-        for (let product of data) {
-            pics += `
-            <figure id="productOne" class="good mules">
-                <img src='${product.img}' alt="" class="img_class" onclick="productPop()">
-            </figure>
-        `;
+// Fetching from array
+let storeItems = 
+    [
+        {
+            "img": "",
+            "storeInfo": [{
+                "name": "Mule for men",
+                "Desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+                "price": "15,000"
+            }]
+        },
+        {
+            "img": "",
+            "storeInfo": [
+                {
+                    "name": "Open-head Sandal",
+                    "Desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+                    "price": "9,000"
+                }
+            ]
         }
-        imageDisplay.innerHTML = pics;
-    });
+    ]
 
-// Fetching each product info
-fetch("store.json")
-.then(response => response.json())
-.then(data =>{
-    let productDisplay = document.querySelector(".product_card"); 
-    let out = "";
+console.log(JSON.parse(storeItems)[1].storeInfo.price)
 
-    for(let product of data){
-        out += `
-                <div class="close_product_card" onclick="closeProductPop()">
-                    <h1>X</h1>
-                </div>
-
-                <img src='${product.img}' alt="" class="img_class">
-    
-                <div class="product_info">
-                    <h4 class="pdt_name">${product.storeInfo.name}</h4>
-
-                    <p class="pdt_desc">${product.storeInfo.Desc}</p>
-                    
-                    <div class="contact_row">
-                        <small class="pdt_price">${product.storeInfo.price}</small>
-                        <button>Direct Order</button>
-                    </div>
-                </div>
-        `;
-    }
-    productDisplay.innerHTML = out;
-});
- 
 // Add class and remove class function for the filter names
 // const addClass = (element, name) => {
 //     var i, arr1, arr2;

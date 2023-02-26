@@ -7,52 +7,17 @@ const closeProductPop = () => {
     document.getElementById("productPage").style.display = "none"
 }
 
-// Fetching store images
-fetch("storeImages.json")
-    .then(response => response.json())
-    .then(data => {
-        let imageDisplay = document.querySelector(".items");
-        let pics = "";
+// Fetching from array
+// const storeDisplay = () => {
 
-        for (let product of data) {
-            pics += `
-            <figure id="productOne" class="good mules">
-                <img src='${product.img}' alt="" class="img_class" onclick="productPop()">
-            </figure>
-        `;
-        }
-        imageDisplay.innerHTML = pics;
-    });
-
-// Fetching each product info
+// }
 fetch("store.json")
 .then(response => response.json())
-.then(data =>{
-    let productDisplay = document.querySelector(".product_card"); 
-    let out = "";
+.then(data => showInfo(data));
 
-    for(let product of data){
-        out += `
-                <div class="close_product_card" onclick="closeProductPop()">
-                    <h1>X</h1>
-                </div>
-
-                <img src='${product.img}' alt="" class="img_class">
-    
-                <div class="product_info">
-                    <h4 class="pdt_name">${product.storeInfo.name}</h4>
-
-                    <p class="pdt_desc">${product.storeInfo.Desc}</p>
-                    
-                    <div class="contact_row">
-                        <small class="pdt_price">${product.storeInfo.price}</small>
-                        <button>Direct Order</button>
-                    </div>
-                </div>
-        `;
-    }
-    productDisplay.innerHTML = out;
-});
+const showInfo = (data) => {
+    console.log()
+}
  
 // Add class and remove class function for the filter names
 // const addClass = (element, name) => {
