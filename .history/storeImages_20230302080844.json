@@ -1,0 +1,57 @@
+[
+    {
+        "id": 1,
+        "img": "./assets/store/leximule design.png",
+        "class": "mules",
+        "storeInfo": {
+            "name": "Mule for men",
+            "Desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+            "price": "15,000"
+        }
+    },
+    {
+        "id": 2,
+        "img": "./assets/store/lexishoe1 design.png",
+        "class": "shoes",
+        "storeInfo": {
+            "name": "Open-head Sandal",
+            "Desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+            "price": "9,000"
+        }
+    },
+    {
+        "id": 3,
+        "img": "./assets/store/lexiwallet1.png",
+        "class": "belts",
+        "storeInfo": {
+            "name": "Mule for men",
+            "Desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+            "price": "15,000"
+        }
+    },
+    {
+        "id": 4,
+        "img": "./assets/store/lexislide design.png",
+        "class": "wallets"
+    },
+    {
+        "id": 5,
+        "img": "./assets/store/lexibelt2.png",
+        "class": "slides",
+    },
+    {
+        "id": 6,
+        "img": "./assets/store/lexibelt1.png",
+        "class": "mules"
+    },
+    {
+        "id": 7,
+        "img": "./assets/store/store1.PNG",
+        "class": "shoes",
+    },
+    {
+        "id": 8,
+        "img": "./assets/store/store2.PNG",
+        "class": "belts"
+    }
+]
