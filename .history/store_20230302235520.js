@@ -57,7 +57,7 @@ filterObjects();
 // images.forEach(image => {
 //     const classNames = image.className;
 //     image.style.display = classNames.includes(filter) ? "grid" : "none";
-// });
+    // });
 
 
 // Product pop up carousel

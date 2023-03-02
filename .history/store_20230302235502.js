@@ -48,16 +48,16 @@ const filterObjects = (filter = "good") => {
 filterObjects();
 
 // FOR..OF
-// for (const image of images) {
-//     const classNames = image.className;
-//     image.style.display = classNames.includes(filter) ? "grid" : "none";
-// }
+    // for (const image of images) {
+    //     const classNames = image.className;
+    //     image.style.display = classNames.includes(filter) ? "grid" : "none";
+    // }
 
-// FOR EACH
-// images.forEach(image => {
-//     const classNames = image.className;
-//     image.style.display = classNames.includes(filter) ? "grid" : "none";
-// });
+    // FOR EACH
+    // images.forEach(image => {
+    //     const classNames = image.className;
+    //     image.style.display = classNames.includes(filter) ? "grid" : "none";
+    // });
 
 
-// Product pop up carousel
+    // Product pop up 
