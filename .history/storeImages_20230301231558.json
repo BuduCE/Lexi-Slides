@@ -13,11 +13,7 @@
         "id": 2,
         "img": "./assets/store/lexishoe1 design.png",
         "class": "shoes",
-        "storeInfo": {
-            "name": "Open-head Sandal",
-            "Desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
-            "price": "9,000"
-        }
+        
     },
     {
         "id": 3,

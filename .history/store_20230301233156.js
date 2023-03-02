@@ -13,8 +13,7 @@ fetch("storeImages.json")
     .then(data => {
         let imageDisplay = document.querySelector(".items");
         let pics = "";
-        // let productDisplay = document.querySelector(".product_card");
-        // let out = "";
+        
 
         for (let product of data) {
             pics += `
@@ -43,7 +42,6 @@ fetch("storeImages.json")
         `;
         }
         imageDisplay.innerHTML = pics;
-        productDisplay.innerHTML = out;
     });
 
 // Fetching each product info

@@ -13,24 +13,33 @@ fetch("storeImages.json")
     .then(data => {
         let imageDisplay = document.querySelector(".items");
         let pics = "";
-        // let productDisplay = document.querySelector(".product_card");
-        // let out = "";
 
         for (let product of data) {
             pics += `
-                <div class="items slide_pane" id="slides">    
-                    <figure id="productOne" class='good ${product.class}'>
-                        <img src='${product.img}' alt="" class="img_class" onclick="productPop()">
-                    </figure>
-                </div>
+            <figure id="productOne" class='good ${product.class}'>
+                <img src='${product.img}' alt="" class="img_class" onclick="productPop()">
+            </figure>
+        `;
+        }
+        imageDisplay.innerHTML = pics;
+    });
 
+// Fetching each product info
+fetch("store.json")
+.then(response => response.json())
+.then(data =>{
+    let productDisplay = document.querySelector(".product_card"); 
+    let out = "";
+
+    for(let product of data){
+        out += `
                 <div class="close_product_card" onclick="closeProductPop()">
                     <h1>X</h1>
                 </div>
 
                 <img src='${product.img}' alt="" class="img_class">
     
-                <div class="product_info">
+                <div class="product_info" key="${product.id}">
                     <h4 class="pdt_name">${product.storeInfo.name}</h4>
 
                     <p class="pdt_desc">${product.storeInfo.Desc}</p>
@@ -41,40 +50,9 @@ fetch("storeImages.json")
                     </div>
                 </div>
         `;
-        }
-        imageDisplay.innerHTML = pics;
-        productDisplay.innerHTML = out;
-    });
-
-// Fetching each product info
-// fetch("store.json")
-// .then(response => response.json())
-// .then(data =>{
-//     let productDisplay = document.querySelector(".product_card"); 
-//     let out = "";
-
-//     for(let product of data){
-//         out += `
-//                 <div class="close_product_card" onclick="closeProductPop()">
-//                     <h1>X</h1>
-//                 </div>
-
-//                 <img src='${product.img}' alt="" class="img_class">
-    
-//                 <div class="product_info" key="${product.id}">
-//                     <h4 class="pdt_name">${product.storeInfo.name}</h4>
-
-//                     <p class="pdt_desc">${product.storeInfo.Desc}</p>
-                    
-//                     <div class="contact_row">
-//                         <small class="pdt_price">${product.storeInfo.price}</small>
-//                         <button>Direct Order</button>
-//                     </div>
-//                 </div>
-//         `;
-//     }
-//     productDisplay.innerHTML = out;
-// });
+    }
+    productDisplay.innerHTML = out;
+});
 
 // Filter
 const filterObjects = (filter = "good") => {

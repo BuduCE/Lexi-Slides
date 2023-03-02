@@ -209,7 +209,7 @@ figure > img{
     -moz-box-shadow: 11px -8px 0px -4px rgba(0, 0, 0, 1);
     transition: 1s;
 }
-.catalog-btn p{
+.catalog_-btn p{
     font-weight: bolder;
     padding-right: 3px;
 }
