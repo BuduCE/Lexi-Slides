@@ -65,7 +65,7 @@ body{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 0 10px;
+        padding: 0 30px;
         padding-top: 10px;
     }
     .desk_nav{
@@ -105,7 +105,7 @@ body{
 
 /* SLide Section */
 .slides{
-    padding: 0 80px;
+    padding: 0 130px;
     overflow: hidden;
 }
 .slide_title{
@@ -176,13 +176,13 @@ figure > img{
 }
 @media screen and (max-width: 463px) {
     .slides{
-        padding: 0 10px;
+        padding: 0 30px;
     }
 }
 
 /* Contact Us Pane */
 .contact{
-    padding: 10px 80px;
+    padding: 10px 130px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -222,7 +222,7 @@ figure > img{
 }
 @media screen and (max-width: 463px) {
     .contact{
-        padding: 0 10px;
+        padding: 0 30px;
     }
 }
 
@@ -230,7 +230,7 @@ figure > img{
 footer{
     background: #E9E4E4;
     color: #989898;
-    padding: 28px 80px;
+    padding: 28px 130px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
@@ -268,7 +268,7 @@ footer{
 }
 @media screen and (max-width: 463px) {
     footer{
-        padding: 10px 10px;
+        padding: 10px 30px;
     }
 }
 
@@ -277,7 +277,7 @@ footer{
     padding-bottom: 25px;
 }
 .items{
-    padding: 0px 80px;
+    padding: 0px 130px;
     column-count: 4;
     column-gap: 10px;
 }
@@ -301,7 +301,7 @@ footer{
 
 @media screen and (max-width: 436px) {
     .items{
-        padding: 0 10px;
+        padding: 0 30px;
     }
     .items{
         column-count: 2;

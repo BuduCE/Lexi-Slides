@@ -51,7 +51,7 @@ body{
 }
 @media screen and (max-width: 596px) {
     .nav{
-        padding: 10px 60px 0 60px;
+        padding: 10px 40px 0 40px;
     }
     .nav a{
         font-size: 1.2rem;
@@ -65,7 +65,7 @@ body{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 0 10px;
+        padding: 0 30px;
         padding-top: 10px;
     }
     .desk_nav{
@@ -176,7 +176,7 @@ figure > img{
 }
 @media screen and (max-width: 463px) {
     .slides{
-        padding: 0 10px;
+        padding: 0 30px;
     }
 }
 
@@ -222,7 +222,7 @@ figure > img{
 }
 @media screen and (max-width: 463px) {
     .contact{
-        padding: 0 10px;
+        padding: 0 30px;
     }
 }
 
@@ -268,7 +268,7 @@ footer{
 }
 @media screen and (max-width: 463px) {
     footer{
-        padding: 10px 10px;
+        padding: 10px 30px;
     }
 }
 
@@ -301,7 +301,7 @@ footer{
 
 @media screen and (max-width: 436px) {
     .items{
-        padding: 0 10px;
+        padding: 0 30px;
     }
     .items{
         column-count: 2;

@@ -222,7 +222,7 @@ figure > img{
 }
 @media screen and (max-width: 463px) {
     .contact{
-        padding: 0 10px;
+        padding: 0 30px;
     }
 }
 
@@ -268,7 +268,7 @@ footer{
 }
 @media screen and (max-width: 463px) {
     footer{
-        padding: 10px 10px;
+        padding: 10px 30px;
     }
 }
 
@@ -301,7 +301,7 @@ footer{
 
 @media screen and (max-width: 436px) {
     .items{
-        padding: 0 10px;
+        padding: 0 30px;
     }
     .items{
         column-count: 2;

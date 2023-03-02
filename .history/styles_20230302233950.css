@@ -301,7 +301,7 @@ footer{
 
 @media screen and (max-width: 436px) {
     .items{
-        padding: 0 10px;
+        padding: 0 30px;
     }
     .items{
         column-count: 2;
