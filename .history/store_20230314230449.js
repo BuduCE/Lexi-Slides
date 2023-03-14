@@ -31,8 +31,8 @@ const productPop = (id) => {
                     <button>Direct Order</button>
                 </div>
             </div>
-        </div>
-    `
+        </
+        `
         ;
 
     document.getElementById("productPage").style.display = "block";

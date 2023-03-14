@@ -1,7 +1,7 @@
 let storeProducts;
 
 const fetchProduct = () => {
-    fetch("storeImages.json")
+    fetch('storeImages.json')
         .then(response => response.json())
         .then(data => {
             storeProducts = data
@@ -11,38 +11,17 @@ fetchProduct();
 
 // Onclick for product Pop-Up
 const productPop = (id) => {
-    const product = storeProducts.find((item) => item.id === id);
-    
-    document.querySelector(".product_page").innerHTML =
-        `
-        <div class="product_card">    
-            <div class="close_product_card" onclick="closeProductPop()">
-                    <h1>X</h1>
-            </div>
-
-            <img src='${product.img}' alt="" class="img_class">
-    
-            <div class="product_info">
-                <h4 class="pdt_name">${product.storeInfo.name}</h4>
-                <p class="pdt_desc">${product.storeInfo.Desc}</p>
-    
-                <div class="contact_row">
-                    <small class="pdt_price">${product.storeInfo.price}</small>
-                    <button>Direct Order</button>
-                </div>
-            </div>
-        </div>
-    `
-        ;
-
+    console.log{id};
     document.getElementById("productPage").style.display = "block";
+
+    // const product = storeProducts.find((item) => item.id === id);
 }
 
 const closeProductPop = () => {
     document.getElementById("productPage").style.display = "none"
 }
 
-// Fetching store products and info
+// Fetching store images
 fetch("storeImages.json")
     .then(response => response.json())
     .then(data => {
@@ -71,33 +50,34 @@ fetch("storeImages.json")
     })
 ;
 
-// fetch("storeImages.json")
-//     .then(response => response.json())
-//     .then(data => {
-//         let imageDisplay = document.querySelector(".items");
-//         let pics = "";
+// }
+fetch("storeImages.json")
+    .then(response => response.json())
+    .then(data => {
+        let imageDisplay = document.querySelector(".items");
+        let pics = "";
 
-//         for (let product of data) {
-//             pics += `
-//             <figure id="productOne" class='good ${product.class}'>
-//                 <img src='${product.img}' alt="" class="img_class" onclick="productPop()">
+        for (let product of data) {
+            pics += `
+            <figure id="productOne" class='good ${product.class}'>
+                <img src='${product.img}' alt="" class="img_class" onclick="productPop()">
 
-//                 <div class="product_info">
-//                     <h4 class="pdt_name">${product.storeInfo.name}</h4>
-//                     <p class="pdt_desc">${product.storeInfo.Desc}</p>
+                <div class="product_info">
+                    <h4 class="pdt_name">${product.storeInfo.name}</h4>
+                    <p class="pdt_desc">${product.storeInfo.Desc}</p>
                 
-//                     <div class="contact_row">
-//                         <small class="pdt_price">${product.storeInfo.price}</small>
+                    <div class="contact_row">
+                        <small class="pdt_price">${product.storeInfo.price}</small>
 
-//                         <small><strike>${product.storeInfo.priceOff}</strike></small>
-//                     </div>
-//                 </div>
-//             </figure>
-//         `;
-//         }
-//         imageDisplay.innerHTML = pics;
-//     })
-//     ;
+                        <small><strike>${product.storeInfo.priceOff}</strike></small>
+                    </div>
+                </div>
+            </figure>
+        `;
+        }
+        imageDisplay.innerHTML = pics;
+    })
+    ;
 
 // Filter
 const filterObjects = (filter = "good") => {

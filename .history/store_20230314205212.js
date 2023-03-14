@@ -13,27 +13,8 @@ fetchProduct();
 const productPop = (id) => {
     const product = storeProducts.find((item) => item.id === id);
     
-    document.querySelector(".product_page").innerHTML =
-        `
-        <div class="product_card">    
-            <div class="close_product_card" onclick="closeProductPop()">
-                    <h1>X</h1>
-            </div>
 
-            <img src='${product.img}' alt="" class="img_class">
-    
-            <div class="product_info">
-                <h4 class="pdt_name">${product.storeInfo.name}</h4>
-                <p class="pdt_desc">${product.storeInfo.Desc}</p>
-    
-                <div class="contact_row">
-                    <small class="pdt_price">${product.storeInfo.price}</small>
-                    <button>Direct Order</button>
-                </div>
-            </div>
-        </div>
-    `
-        ;
+    let document.querySelector(".pdt_name").innerHTML = product.storeInfo.name;
 
     document.getElementById("productPage").style.display = "block";
 }

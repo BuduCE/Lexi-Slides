@@ -32,7 +32,7 @@ const productPop = (id) => {
                 </div>
             </div>
         </div>
-    `
+        `
         ;
 
     document.getElementById("productPage").style.display = "block";

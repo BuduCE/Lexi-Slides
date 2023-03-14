@@ -15,12 +15,11 @@ const productPop = (id) => {
     
     document.querySelector(".product_page").innerHTML =
         `
-        <div class="product_card">    
             <div class="close_product_card" onclick="closeProductPop()">
-                    <h1>X</h1>
+                <h1>X</h1>
             </div>
 
-            <img src='${product.img}' alt="" class="img_class">
+            <img src='${}' alt="" class="img_class">
     
             <div class="product_info">
                 <h4 class="pdt_name">${product.storeInfo.name}</h4>
@@ -31,8 +30,7 @@ const productPop = (id) => {
                     <button>Direct Order</button>
                 </div>
             </div>
-        </div>
-    `
+        `
         ;
 
     document.getElementById("productPage").style.display = "block";
