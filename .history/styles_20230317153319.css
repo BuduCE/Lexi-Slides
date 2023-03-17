@@ -446,6 +446,9 @@ footer{
 /* Product pop up carousel */
 
 /* About page */
+.about{
+    /* padding: 60px; */
+}
 .about-us{
     padding: 60px;
     display: grid;
@@ -461,11 +464,6 @@ footer{
     left: 50%; */
     width: 10%;
 }
-@media screen and (max-width: 520px) {
-    .about-us{
-        grid-template-columns: 1fr;
-    }
-}
 .why-us{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -475,14 +473,4 @@ footer{
 }
 .why-us-txt{
     width: 50%;
-}
-@media screen and (max-width: 520px) {
-    .why-us {
-        grid-template-columns: 1fr;
-    }
-    .why-us-txt{
-        width: auto;
-        margin: auto;
-        padding: 0 60px;
-    }
 }

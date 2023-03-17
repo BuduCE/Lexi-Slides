@@ -446,43 +446,14 @@ footer{
 /* Product pop up carousel */
 
 /* About page */
-.about-us{
+.about{
     padding: 60px;
+}
+.about-us{
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 .about-us-title{
-    position: relative;
-}
-#border-up{
     padding-top: 5px;
-    border-top: 3px solid orange;
-    /* position: absolute;
-    left: 50%; */
-    width: 10%;
-}
-@media screen and (max-width: 520px) {
-    .about-us{
-        grid-template-columns: 1fr;
-    }
-}
-.why-us{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin-top: 30px;
-    padding: 100px 0;
-    background: rgb(207, 205, 205);
-}
-.why-us-txt{
-    width: 50%;
-}
-@media screen and (max-width: 520px) {
-    .why-us {
-        grid-template-columns: 1fr;
-    }
-    .why-us-txt{
-        width: auto;
-        margin: auto;
-        padding: 0 60px;
-    }
+    
 }

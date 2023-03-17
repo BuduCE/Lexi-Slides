@@ -463,7 +463,7 @@ footer{
 }
 @media screen and (max-width: 520px) {
     .about-us{
-        grid-template-columns: 1fr;
+        grid
     }
 }
 .why-us{
@@ -475,14 +475,4 @@ footer{
 }
 .why-us-txt{
     width: 50%;
-}
-@media screen and (max-width: 520px) {
-    .why-us {
-        grid-template-columns: 1fr;
-    }
-    .why-us-txt{
-        width: auto;
-        margin: auto;
-        padding: 0 60px;
-    }
 }

@@ -480,9 +480,5 @@ footer{
     .why-us {
         grid-template-columns: 1fr;
     }
-    .why-us-txt{
-        width: auto;
-        margin: auto;
-        padding: 0 60px;
-    }
+    .why
 }

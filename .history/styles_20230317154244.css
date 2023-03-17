@@ -481,8 +481,9 @@ footer{
         grid-template-columns: 1fr;
     }
     .why-us-txt{
-        width: auto;
+        width: 100%;
         margin: auto;
         padding: 0 60px;
+        wra
     }
 }

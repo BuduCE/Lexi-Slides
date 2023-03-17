@@ -479,9 +479,10 @@ footer{
 @media screen and (max-width: 520px) {
     .why-us {
         grid-template-columns: 1fr;
+        padding: 50px 0;
     }
     .why-us-txt{
-        width: auto;
+        width: 100%;
         margin: auto;
         padding: 0 60px;
     }
