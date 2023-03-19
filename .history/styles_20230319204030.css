@@ -467,7 +467,7 @@ footer{
     }
 }
 main{
-    position: relative;
+    po
 }
 .why-us{
     display: grid;
@@ -475,66 +475,23 @@ main{
     margin-top: 30px;
     padding: 100px 0;
     background: rgb(207, 205, 205);
-    /* position: relative; */
+    position: relative;
 }
 .lexi-abt-img{
     position: absolute;
-    top: 180px;
+    top: ;
     left: 200px;
 }
-@media screen and (max-width: 978px) {
-    .lexi-abt-img {
-        left: 120px;
-    }
-}
-@media screen and (max-width: 820px) {
-    .lexi-abt-img {
-        left: 80px;
-    }
-}
-
 .why-us-txt{
     width: 50%;
 }
-@media screen and (max-width: 645px) {
+@media screen and (max-width: 520px) {
     .why-us {
         grid-template-columns: 1fr;
-        padding: 30px 0;
     }
     .why-us-txt{
         width: auto;
         margin: auto;
         padding: 0 60px;
-    }
-    main{
-        position: unset;
-    }
-    .why-us-img{
-        padding: 0 60px;
-    }
-    .lexi-abt-img {
-        position: unset;
-        width: 50%;
-        margin: auto;
-    }
-}
-@media screen and (max-width: 463px) {
-    .about-us{
-        padding: 60px 5px;
-    }
-    .about-us-title{
-        padding: 0 5px;
-    }
-    .about-us-text{
-        padding: 0 5px;
-    }
-    .why-us{
-        padding: 30px 5px;
-    }
-    .why-us-txt{
-        padding: 0 5px;
-    }
-    .why-us-img {
-        padding: 0 5px;
     }
 }

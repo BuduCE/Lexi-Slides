@@ -499,7 +499,7 @@ main{
 @media screen and (max-width: 645px) {
     .why-us {
         grid-template-columns: 1fr;
-        padding: 30px 0;
+        padding: 10px 0;
     }
     .why-us-txt{
         width: auto;
@@ -516,25 +516,5 @@ main{
         position: unset;
         width: 50%;
         margin: auto;
-    }
-}
-@media screen and (max-width: 463px) {
-    .about-us{
-        padding: 60px 5px;
-    }
-    .about-us-title{
-        padding: 0 5px;
-    }
-    .about-us-text{
-        padding: 0 5px;
-    }
-    .why-us{
-        padding: 30px 5px;
-    }
-    .why-us-txt{
-        padding: 0 5px;
-    }
-    .why-us-img {
-        padding: 0 5px;
     }
 }
