@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product page</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="nav">
+        <a href="index.html" class="nav_option">Home</a>
+        <a href="about.html" class="nav_option">About</a>
+        <a href="" class="logo" id="logo">LEXI</a>
+        <a href="store.html" class="nav_option">Store</a>
+        <a href="" class="nav_option">Contact</a>
+    </header>
+    
+    <header class="nav_mob">
+        <a href="" class="logo" id="mob_logo">LEXI</a>
+    
+        <div class="desk_nav" id="mobi-links">
+            <p href="" class="logomob hamburger_close" id="close_hamburger" onclick="showMenu()" style="color: red;">X CLOSE
+                X</p>
+    
+            <a href="index.html" class="nav_option">Home</a>
+    
+            <a href="about.html" class="nav_option">About</a>
+    
+            <a href="store.html" class="nav_option">Store</a>
+    
+            <a href="" class="nav_option">Contact</a>
+        </div>
+    
+        <div class="hamburger" onclick="showMenu()" id="hamburger">
+            <svg stroke="currentColor" fill="none" stroke-width="2.5" viewBox="0 0 24 24" stroke-linecap="round"
+                stroke-linejoin="round" class="h-6 w-6" height="2em" width="2em" xmlns="http://www.w3.org/2000/svg">
+                <line x1="3" y1="12" x2="21" y2="12"></line>
+                <line x1="3" y1="6" x2="21" y2="6"></line>
+                <line x1="3" y1="18" x2="21" y2="18"></line>
+            </svg>
+        </div>
+    </header>
+
+    <section class="product-pg-info">
+        <div class="product-pg-img">
+            <img src="./assets/store/leximule design.png" alt="">
+
+            <div class="small-img-grp">
+                <div class="small-img">
+                    <img src="./assets/store/leximule design.png" alt="" class="small-pg-img">
+                </div>
+
+                <div class="small-img">
+                    <img src="./assets/store/leximule design.png" alt="" class="small-pg-img">
+                </div>
+
+                <div class="small-img">
+                    <img src="./assets/store/leximule design.png" alt="" class="small-pg-img">
+                </div>
+
+                <div class="small-img">
+                    <img src="./assets/store/leximule design.png" alt="" class="small-pg-img">
+                </div>
+            </div>
+        </div>
+
+        <div class="product-detail">
+            <h4 class="pdt_name">Water proof Black boot</h4>
+            
+            <small class="pdt_price">₦15,000</small>
+            
+            <br>
+
+            <small>Made with premium leather</small>
+
+            <p>Color: Black</p>
+
+            <p>Size: Large</p>
+            
+            <button class="cartbtn_">
+                <small>Add to cart</small>
+                <img src="./assets/toCart.svg" class="carticon" alt="">
+            </button>
+        </div>
+    </section>
+
+    <footer>
+        <div class="catalog footer_pane">
+            <h2>Catalog</h2>
+            <p>Sweaters</p>
+            <p>Accessories</p>
+            <p>Cardigans</p>
+            <p>Actions</p>
+        </div>
+        <div class="help footer_pane">
+            <h2>Help for the buyer</h2>
+            <p>Shipping and Payment</p>
+            <p>Exchange and Return</p>
+            <p>Frequently asked questions</p>
+            <p>Personal order</p>
+        </div>
+        <div class="about footer_pane">
+            <h2>About Us</h2>
+            <p>Contacts</p>
+            <p>Cooperation</p>
+            <p>Feedback</p>
+            <div class="socials">
+                <img src="./assets/instagram.svg" alt="">
+                <img src="./assets/telegram.svg" alt="">
+                <img src="./assets/icons-вконтакте.svg" alt="">
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
